@@ -1,0 +1,46 @@
+<!-- pagina_verificacao.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificação Dimensional</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Verificação Dimensional ED25MXXXX</h1>
+      <button class="btn cancelar">Cancelar</button>
+    </header>
+
+    <section class="cam-controls">
+      <button class="btn ligar">Ligar Câmara</button>
+      <button class="btn parar">Parar Câmara</button>
+      <button class="btn calibrar">Calibrar</button>
+    </section>
+
+    <section class="inputs">
+      <div><label>Comprimento (mm)</label><input type="text"></div>
+      <div><label>Largura (mm)</label><input type="text"></div>
+      <div><label>Tolerância (mm)</label><input type="text"></div>
+    </section>
+
+    <section class="resultados">
+      <h3>107: OK – 114.05mm x 35.43mm</h3>
+      <ul>
+        <li>114.05mm x 35.40mm</li>
+        <li>114.12mm x 35.42mm</li>
+        <li>112.03mm x 36.90mm</li>
+        <!-- ... outros resultados -->
+      </ul>
+    </section>
+
+    <section class="funcoes-extra">
+      <button class="btn exportar">Exportar Excel (.xlsx)</button>
+      <button class="btn threshold">Threshold</button>
+      <button class="btn contraste">Contraste</button>
+      <button class="btn menu">Menu Inicial</button>
+    </section>
+  </div>
+</body>
+</html>
